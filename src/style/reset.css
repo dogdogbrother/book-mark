@@ -1,0 +1,10 @@
+body, h3, ul, h2, h4, p {
+  margin: 0;
+}
+ul {
+  padding: 0;
+  list-style: none;
+}
+body {
+  height: 100vh;
+}

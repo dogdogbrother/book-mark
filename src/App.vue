@@ -22,7 +22,9 @@ const keepArr = Object.entries(keep)
 keepArr.sort(([, a], [, b]) => b - a)
 myAttention.label = keepArr.map(([name]) => flatConfig.find(item => item.name === name)).filter(item => item)
 myAttention.label.splice(8)
-config.unshift(myAttention)
+if (myAttention.label.length) {
+  config.unshift(myAttention)
+}
 
 const active = ref()
 const panels = ref(null)

@@ -28,6 +28,7 @@ function changeActive(id) {
   border-radius: 10px;
   border: 1px solid rgba($color: #ccc, $alpha: 0.7);
   margin-bottom: -5px;
+  margin-right: 10px;
   flex-shrink: 0;
   li {
     cursor: pointer;

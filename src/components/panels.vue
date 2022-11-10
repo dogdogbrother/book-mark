@@ -9,7 +9,7 @@
     >
       <h2>{{menu.menu}}</h2>
       <ul>
-        <li v-for="label in menu.label" :key="label.name" @click="toUrl(label.url)">
+        <li v-for="label in menu.label" :key="label.name" @click="toUrl(label)">
           <img :src="`/img/${label.icon}`" alt="icon">
           <h4>{{label.name}}</h4>
           <p>{{label.des}}</p>
@@ -26,13 +26,12 @@ const props = defineProps({
 })
 function setId(id) {
   const dom = document.getElementById(`${id}`)
-  console.log(dom);
   dom.scrollIntoView({block: 'start', behavior: 'smooth'})
 }
 defineExpose({
   setId
 })
-const emit = defineEmits(['change'])
+const emit = defineEmits(['change', 'toKeep'])
 function emitScroll(id) {
   emit('change', id)
 }
@@ -61,8 +60,9 @@ nextTick(() => {
     observer.observe(panel)
   })
 })
-function toUrl(url) {
-  window.open(url)
+function toUrl(info) {
+  emit('toKeep', info.name)
+  window.open(info.url)
 }
 </script>
 
@@ -97,6 +97,11 @@ ul {
     margin-bottom: 20px;
     border-radius: 5px;
     border: 1px solid rgba($color: #ccc, $alpha: 0.8);
+    box-shadow: 0 0 0 0 rgb(0 0 0 / 10%);
+    transition: 0.5s;
+    &:hover {
+      box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+    }
     img {
       width: 40px;
       height: 40px;

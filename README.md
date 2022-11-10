@@ -1,29 +1,9 @@
-# Vite
+## 关于我的关注
 
-This directory is a brief example of a Vite/Vue.js site that can be deployed to Vercel with zero configuration.
+根据点击排序增加到我的关注,超过20个链接末位淘汰,展示常用地址.
 
-While this project uses Vue.js, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
+## 一起编辑
 
-## Deploy Your Own
-
-Deploy your own Vite project with Vercel.
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/vite&template=vite)
-
-_Live Example: https://vite-vue-template.vercel.app_
-
-### How We Created This Example
-
-To get started with Vue.js deployed with Vercel, you can use Vite (https://vitejs.dev/guide/#scaffolding-your-first-vite-project) to initialize the project:
-
-```shell
-$ yarn create @vitejs/app
-```
-
-### Deploying From Your Terminal
-
-You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
+1. 把网站标识图片放入`/public/img`.
+2. 编写`/src/config.js`文件.
+3. 提pr,合并分支后自动部署.

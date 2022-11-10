@@ -20,6 +20,12 @@ const _config = [
     menu: '文档官网',
     label: [
       {
+        name: 'MDN',
+        des: '权威大而全的前端开发手册',
+        url: 'https://nodejs.org/zh-cn/docs/',
+        icon: 'mdn.png'
+      },
+      {
         name: 'nodejs',
         des: '官网,无汉化,英语渣的痛',
         url: 'https://nodejs.org/zh-cn/docs/',
@@ -42,6 +48,12 @@ const _config = [
         des: 'hook -- 永远的神',
         url: 'https://www.javascriptc.com/vue3js/',
         icon: 'vuejs.png'
+      },
+      {
+        name: 'react',
+        des: 'react V18发布了',
+        url: 'https://react.docschina.org/',
+        icon: 'react.png'
       },
       {
         name: 'Element-ui',
@@ -121,6 +133,24 @@ const _config = [
         url: 'https://burst.shopify.com/',
         icon: 'burst.png'
       },
+      {
+        name: 'Logo 生成器',
+        des: 'PornHub 风格',
+        url: 'http://tool.mkblog.cn/logoly/#/',
+        icon: 'phlogo.png'
+      },
+      {
+        name: 'undraw 插画',
+        des: '大色块人物的插画',
+        url: 'https://undraw.co/illustrations',
+        icon: 'undraw.png'
+      },
+      {
+        name: '站酷ZCOOL',
+        des: '国内较大的设计网站',
+        url: 'https://www.zcool.com.cn/',
+        icon: 'zcool.png'
+      },
     ]
   },
   {
@@ -138,6 +168,12 @@ const _config = [
         des: '全球最大的同性交友',
         url: 'https://github.com/',
         icon: 'github.png'
+      },
+      {
+        name: 'npm 仓库',
+        des: 'npm包--应有尽有',
+        url: 'https://www.npmjs.com/',
+        icon: 'npm.png'
       },
       {
         name: '慕课',
@@ -158,6 +194,78 @@ const _config = [
         icon: 'leetcode.png'
       },
     ]
+  },
+  {
+    id: 5,
+    menu: '运维相关',
+    label: [
+      {
+        name: 'Vercel',
+        des: '项目托管.免费又好用',
+        url: 'https://vercel.com/',
+        icon: 'vercel.png'
+      },
+      {
+        name: 'netlify',
+        des: '项目托管,没被墙',
+        url: 'https://app.netlify.com/',
+        icon: 'netlify.png'
+      },
+    ]
+  },
+  {
+    id: 6,
+    menu: '学习资源',
+    label: [
+      {
+        name: 'build-your-react',
+        des: '学习react源码最佳实践',
+        url: 'https://pomb.us/build-your-own-react/',
+        icon: 'react.png'
+      },
+    ]
+  },
+  {
+    id: 7,
+    menu: '一些工具',
+    label: [
+      {
+        name: 'TinyPNG 图片压缩',
+        des: '免费的图片压缩',
+        url: 'https://tinypng.com/',
+        icon: 'tiny.png'
+      },
+    ]
+  },
+  {
+    id: 8,
+    menu: '跨平台',
+    label: [
+      {
+        name: 'Electron',
+        des: '构建跨平台PC客户端',
+        url: 'https://www.electronjs.org/',
+        icon: 'electron.png'
+      },
+      {
+        name: 'Flutter',
+        des: 'Dart语言,各平台通吃',
+        url: 'https://flutter.cn/',
+        icon: 'flutter.png'
+      },
+    ]
+  },
+  {
+    id: 8,
+    menu: '日常光顾',
+    label: [
+      {
+        name: '淘宝',
+        des: '剁手',
+        url: 'https://www.taobao.com/',
+        icon: 'taobao.png'
+      },
+    ]
   }
 ]
 const config = _config.filter(item => item.label.length)
@@ -176,7 +284,7 @@ function manuChange(id) {
 <style lang="scss" scoped>
 .app {
   width: 100vw;
-  max-width: 1080px;
+  max-width: 1296px;
   margin: 0 auto;
   padding: 20px;
   display: flex;

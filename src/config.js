@@ -69,6 +69,12 @@ export default [
         icon: 'antd.png'
       },
       {
+        name: 'material-ui of react',
+        des: '谷歌material风格的react ui',
+        url: 'https://mui.com/',
+        icon: 'material.png'
+      },
+      {
         name: 'webpack 中文文档',
         des: 'webpack4和5都在这里',
         url: 'https://webpack.docschina.org/',
@@ -103,6 +109,12 @@ export default [
         des: 'node连接mysql的好帮手',
         url: 'https://www.sequelize.cn/other-topics/upgrade-to-v6',
         icon: 'sequelize.png'
+      },
+      {
+        name: '微信开发社区',
+        des: '小程序/支付/公众号等文档',
+        url: 'https://developers.weixin.qq.com/community/homepage',
+        icon: 'weixindev.png'
       },
     ]
   },
@@ -139,6 +151,12 @@ export default [
         des: '国内较大的设计网站',
         url: 'https://www.zcool.com.cn/',
         icon: 'zcool.png'
+      },
+      {
+        name: '蓝湖',
+        des: '设计原稿',
+        url: 'https://lanhuapp.com/',
+        icon: 'lanhu.png'
       },
     ]
   },
@@ -230,6 +248,30 @@ export default [
         url: 'https://echarts.apache.org/zh/index.html',
         icon: 'echarts.png'
       },
+      {
+        name: 'antv 图表',
+        des: '阿里提供的可视化方案',
+        url: 'https://antv.vision/zh',
+        icon: 'antv.png'
+      },
+      {
+        name: '鸠摩搜书',
+        des: '好多好多免费的书籍呀',
+        url: 'https://www.jiumodiary.com/',
+        icon: 'jiumo.png'
+      },
+      {
+        name: '亿牛网',
+        des: '炒股好帮手 看股票参数',
+        url: 'https://eniu.com/',
+        icon: 'eniu.png'
+      },
+      {
+        name: 'gitmoji',
+        des: '在git里用emoji表情进行表达',
+        url: 'https://gitmoji.dev/',
+        icon: 'gitmoji.png'
+      },
     ]
   },
   {
@@ -259,6 +301,18 @@ export default [
         des: '剁手',
         url: 'https://www.taobao.com/',
         icon: 'taobao.png'
+      },
+      {
+        name: 'B站',
+        des: 'OK 二刺螈向我开炮~',
+        url: 'https://www.bilibili.com/',
+        icon: 'bilibili.png'
+      },
+      {
+        name: '知乎',
+        des: '给我狠狠的编',
+        url: 'https://www.zhihu.com/',
+        icon: 'zhihu.png'
       },
     ]
   }

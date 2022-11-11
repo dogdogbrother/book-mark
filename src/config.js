@@ -1,10 +1,5 @@
 export default [
   {
-    id: 1,
-    menu: '我的关注',
-    label: []
-  },
-  {
     id: 2,
     menu: '文档官网',
     label: [
@@ -158,6 +153,12 @@ export default [
         url: 'https://lanhuapp.com/',
         icon: 'lanhu.png'
       },
+      {
+        name: 'icones',
+        des: '超全超方便的icon平台',
+        url: 'https://icones.js.org',
+        icon: 'icones.png'
+      },
     ]
   },
   {
@@ -196,9 +197,15 @@ export default [
       },
       {
         name: 'LeetCode 力扣',
-        des: '刷题',
+        des: '算法刷题',
         url: 'https://leetcode.cn/',
         icon: 'leetcode.png'
+      },
+      {
+        name: '牛客网',
+        des: '面试刷题',
+        url: 'https://www.nowcoder.com/',
+        icon: 'niuke.png'
       },
     ]
   },
@@ -313,6 +320,12 @@ export default [
         des: '给我狠狠的编',
         url: 'https://www.zhihu.com/',
         icon: 'zhihu.png'
+      },
+      {
+        name: '抖音',
+        des: '用来看学习视频的',
+        url: 'https://www.douyin.com/',
+        icon: 'douyin.png'
       },
     ]
   }

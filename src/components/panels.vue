@@ -20,10 +20,38 @@
 </template>
 
 <script setup>
-import { nextTick } from 'vue'
+import { nextTick, watch } from 'vue'
+const observer = new IntersectionObserver((changes) => {
+  // 如果能找到一个隐藏起来 并且在上面的 就显示下一个
+  const findHide = changes.find(item => {
+    return item.intersectionRatio < 0.2 && item.boundingClientRect.top < 0
+  })
+  if (findHide) {
+    return emitScroll(Number(findHide.target.id) + 1)
+  }
+  // 如果能找到一个显示完全的  并且在上面的 就显示这一个
+  const findShow = changes.find(item => {
+    return item.intersectionRatio > 0.9 && item.boundingClientRect.top < 100
+  })
+  if (findShow) {
+    return emitScroll(Number(findShow.target.id))
+  }
+}, { 
+  threshold: [0.1, 1],
+  root: document.querySelector('.panels')
+})
 const props = defineProps({
   config: Array
 })
+watch(() => props.config, () => {
+  observer.disconnect()
+  nextTick(() => {
+    const panels = document.querySelectorAll('.panel')
+    panels.forEach(panel => {
+      observer.observe(panel)
+    })
+  })
+}, { immediate: true })
 function setId(id) {
   const dom = document.getElementById(`${id}`)
   dom.scrollIntoView({block: 'start', behavior: 'smooth'})
@@ -35,31 +63,6 @@ const emit = defineEmits(['change', 'toKeep'])
 function emitScroll(id) {
   emit('change', id)
 }
-nextTick(() => {
-  const observer = new IntersectionObserver((changes) => {
-    // 如果能找到一个隐藏起来 并且在上面的 就显示下一个
-    const findHide = changes.find(item => {
-      return item.intersectionRatio < 0.2 && item.boundingClientRect.top < 0
-    })
-    if (findHide) {
-      return emitScroll(Number(findHide.target.id) + 1)
-    }
-    // 如果能找到一个显示完全的  并且在上面的 就显示这一个
-    const findShow = changes.find(item => {
-      return item.intersectionRatio > 0.9 && item.boundingClientRect.top < 100
-    })
-    if (findShow) {
-      return emitScroll(Number(findShow.target.id))
-    }
-  }, { 
-    threshold: [0.1, 1],
-    root: document.querySelector('.panels')
-  })
-  const panels = document.querySelectorAll('.panel')
-  panels.forEach(panel => {
-    observer.observe(panel)
-  })
-})
 function toUrl(info) {
   emit('toKeep', info.name)
   window.open(info.url)
@@ -68,9 +71,9 @@ function toUrl(info) {
 
 <style lang="scss" scoped>
 .panels {
-  padding: 0 30px;
+  padding: 0 10px 0 30px;
   margin-bottom: -40px;
-  max-height: calc(100vh - 40px);
+  max-height: calc(100vh - 80px);
   overflow-y: auto;
   &::-webkit-scrollbar {
     display: none;

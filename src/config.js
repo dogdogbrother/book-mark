@@ -177,16 +177,16 @@ export default [
         icon: 'jike.png'
       },
       {
-        name: 'LeetCode 力扣',
-        des: '刷题',
-        url: 'https://leetcode.cn/',
-        icon: 'leetcode.png'
-      },
-      {
         name: 'CSDN',
         des: '学而不思则罔',
         url: 'https://so.csdn.net/so/search',
         icon: 'csdn.webp'
+      },
+      {
+        name: 'LeetCode 力扣',
+        des: '思而不学则殆',
+        url: 'https://leetcode.cn/',
+        icon: 'leetcode.png'
       }
     ]
   },
@@ -257,7 +257,7 @@ export default [
     ]
   },
   {
-    id: 8,
+    id: 9,
     menu: '日常光顾',
     label: [
       {

@@ -103,7 +103,7 @@ export default [
         des: 'node连接mysql的好帮手',
         url: 'https://www.sequelize.cn/other-topics/upgrade-to-v6',
         icon: 'sequelize.png'
-      },
+      }
     ]
   },
   {
@@ -139,7 +139,7 @@ export default [
         des: '国内较大的设计网站',
         url: 'https://www.zcool.com.cn/',
         icon: 'zcool.png'
-      },
+      }
     ]
   },
   {
@@ -182,6 +182,12 @@ export default [
         url: 'https://leetcode.cn/',
         icon: 'leetcode.png'
       },
+      {
+        name: 'CSDN',
+        des: '学而不思则罔',
+        url: 'https://so.csdn.net/so/search',
+        icon: 'csdn.webp'
+      }
     ]
   },
   {
@@ -199,7 +205,7 @@ export default [
         des: '项目托管,没被墙',
         url: 'https://app.netlify.com/',
         icon: 'netlify.png'
-      },
+      }
     ]
   },
   {
@@ -211,7 +217,7 @@ export default [
         des: '学习react源码最佳实践',
         url: 'https://pomb.us/build-your-own-react/',
         icon: 'react.png'
-      },
+      }
     ]
   },
   {
@@ -229,7 +235,7 @@ export default [
         des: '可视化老牌子了',
         url: 'https://echarts.apache.org/zh/index.html',
         icon: 'echarts.png'
-      },
+      }
     ]
   },
   {
@@ -247,7 +253,7 @@ export default [
         des: 'Dart语言,各平台通吃',
         url: 'https://flutter.cn/',
         icon: 'flutter.png'
-      },
+      }
     ]
   },
   {
@@ -259,7 +265,7 @@ export default [
         des: '剁手',
         url: 'https://www.taobao.com/',
         icon: 'taobao.png'
-      },
+      }
     ]
   }
 ]

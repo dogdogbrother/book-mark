@@ -1,10 +1,5 @@
 export default [
   {
-    id: 1,
-    menu: '我的关注',
-    label: []
-  },
-  {
     id: 2,
     menu: '文档官网',
     label: [
@@ -69,6 +64,12 @@ export default [
         icon: 'antd.png'
       },
       {
+        name: 'material-ui of react',
+        des: '谷歌material风格的react ui',
+        url: 'https://mui.com/',
+        icon: 'material.png'
+      },
+      {
         name: 'webpack 中文文档',
         des: 'webpack4和5都在这里',
         url: 'https://webpack.docschina.org/',
@@ -103,7 +104,17 @@ export default [
         des: 'node连接mysql的好帮手',
         url: 'https://www.sequelize.cn/other-topics/upgrade-to-v6',
         icon: 'sequelize.png'
+<<<<<<< HEAD
       }
+=======
+      },
+      {
+        name: '微信开发社区',
+        des: '小程序/支付/公众号等文档',
+        url: 'https://developers.weixin.qq.com/community/homepage',
+        icon: 'weixindev.png'
+      },
+>>>>>>> 942bf7df0d277df4a4cce7b34e1147d684930e23
     ]
   },
   {
@@ -139,7 +150,23 @@ export default [
         des: '国内较大的设计网站',
         url: 'https://www.zcool.com.cn/',
         icon: 'zcool.png'
+<<<<<<< HEAD
       }
+=======
+      },
+      {
+        name: '蓝湖',
+        des: '设计原稿',
+        url: 'https://lanhuapp.com/',
+        icon: 'lanhu.png'
+      },
+      {
+        name: 'icones',
+        des: '超全超方便的icon平台',
+        url: 'https://icones.js.org',
+        icon: 'icones.png'
+      },
+>>>>>>> 942bf7df0d277df4a4cce7b34e1147d684930e23
     ]
   },
   {
@@ -184,10 +211,23 @@ export default [
       },
       {
         name: 'LeetCode 力扣',
+<<<<<<< HEAD
         des: '思而不学则殆',
         url: 'https://leetcode.cn/',
         icon: 'leetcode.png'
       }
+=======
+        des: '算法刷题',
+        url: 'https://leetcode.cn/',
+        icon: 'leetcode.png'
+      },
+      {
+        name: '牛客网',
+        des: '面试刷题',
+        url: 'https://www.nowcoder.com/',
+        icon: 'niuke.png'
+      },
+>>>>>>> 942bf7df0d277df4a4cce7b34e1147d684930e23
     ]
   },
   {
@@ -235,7 +275,35 @@ export default [
         des: '可视化老牌子了',
         url: 'https://echarts.apache.org/zh/index.html',
         icon: 'echarts.png'
+<<<<<<< HEAD
       }
+=======
+      },
+      {
+        name: 'antv 图表',
+        des: '阿里提供的可视化方案',
+        url: 'https://antv.vision/zh',
+        icon: 'antv.png'
+      },
+      {
+        name: '鸠摩搜书',
+        des: '好多好多免费的书籍呀',
+        url: 'https://www.jiumodiary.com/',
+        icon: 'jiumo.png'
+      },
+      {
+        name: '亿牛网',
+        des: '炒股好帮手 看股票参数',
+        url: 'https://eniu.com/',
+        icon: 'eniu.png'
+      },
+      {
+        name: 'gitmoji',
+        des: '在git里用emoji表情进行表达',
+        url: 'https://gitmoji.dev/',
+        icon: 'gitmoji.png'
+      },
+>>>>>>> 942bf7df0d277df4a4cce7b34e1147d684930e23
     ]
   },
   {
@@ -265,7 +333,29 @@ export default [
         des: '剁手',
         url: 'https://www.taobao.com/',
         icon: 'taobao.png'
+<<<<<<< HEAD
       }
+=======
+      },
+      {
+        name: 'B站',
+        des: 'OK 二刺螈向我开炮~',
+        url: 'https://www.bilibili.com/',
+        icon: 'bilibili.png'
+      },
+      {
+        name: '知乎',
+        des: '给我狠狠的编',
+        url: 'https://www.zhihu.com/',
+        icon: 'zhihu.png'
+      },
+      {
+        name: '抖音',
+        des: '用来看学习视频的',
+        url: 'https://www.douyin.com/',
+        icon: 'douyin.png'
+      },
+>>>>>>> 942bf7df0d277df4a4cce7b34e1147d684930e23
     ]
   }
 ]

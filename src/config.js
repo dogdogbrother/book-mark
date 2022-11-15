@@ -159,6 +159,12 @@ export default [
         url: 'https://icones.js.org',
         icon: 'icones.png'
       },
+      {
+        name: 'naiveui',
+        des: '新时代的vue3的UI组件库',
+        url: 'https://www.naiveui.com/zh-CN/os-theme',
+        icon: 'naiveui.png'
+      },
     ]
   },
   {
@@ -207,6 +213,12 @@ export default [
         url: 'https://www.nowcoder.com/',
         icon: 'niuke.png'
       },
+      {
+        name: 'stackoverflow',
+        des: '全球最好的代码问答',
+        url: 'https://stackoverflow.com/',
+        icon: 'stackoverflow.png'
+      },
     ]
   },
   {
@@ -224,6 +236,18 @@ export default [
         des: '项目托管,没被墙',
         url: 'https://app.netlify.com/',
         icon: 'netlify.png'
+      },
+      {
+        name: '阿里云',
+        des: '买服务/域名/数据库',
+        url: 'https://www.aliyun.com/',
+        icon: 'aliyun.png'
+      },
+      {
+        name: '腾讯云',
+        des: '功能和价格与阿里云差不多',
+        url: 'https://cloud.tencent.com/',
+        icon: 'tengxunyun.png'
       },
     ]
   },

@@ -110,7 +110,7 @@ export default [
         des: '小程序/支付/公众号等文档',
         url: 'https://developers.weixin.qq.com/community/homepage',
         icon: 'weixindev.png'
-      },
+      }
     ]
   },
   {
@@ -158,7 +158,7 @@ export default [
         des: '超全超方便的icon平台',
         url: 'https://icones.js.org',
         icon: 'icones.png'
-      },
+      }
     ]
   },
   {
@@ -196,17 +196,23 @@ export default [
         icon: 'jike.png'
       },
       {
-        name: 'LeetCode 力扣',
-        des: '算法刷题',
-        url: 'https://leetcode.cn/',
-        icon: 'leetcode.png'
-      },
-      {
         name: '牛客网',
         des: '面试刷题',
         url: 'https://www.nowcoder.com/',
         icon: 'niuke.png'
       },
+      {
+        name: 'CSDN',
+        des: '学而不思则罔',
+        url: 'https://so.csdn.net/',
+        icon: 'csdn.webp'
+      },
+      {
+        name: 'LeetCode 力扣',
+        des: '思而不学则殆',
+        url: 'https://leetcode.cn/',
+        icon: 'leetcode.png'
+      }
     ]
   },
   {
@@ -224,7 +230,7 @@ export default [
         des: '项目托管,没被墙',
         url: 'https://app.netlify.com/',
         icon: 'netlify.png'
-      },
+      }
     ]
   },
   {
@@ -236,7 +242,7 @@ export default [
         des: '学习react源码最佳实践',
         url: 'https://pomb.us/build-your-own-react/',
         icon: 'react.png'
-      },
+      }
     ]
   },
   {
@@ -278,7 +284,7 @@ export default [
         des: '在git里用emoji表情进行表达',
         url: 'https://gitmoji.dev/',
         icon: 'gitmoji.png'
-      },
+      }
     ]
   },
   {
@@ -296,7 +302,7 @@ export default [
         des: 'Dart语言,各平台通吃',
         url: 'https://flutter.cn/',
         icon: 'flutter.png'
-      },
+      }
     ]
   },
   {
@@ -326,7 +332,7 @@ export default [
         des: '用来看学习视频的',
         url: 'https://www.douyin.com/',
         icon: 'douyin.png'
-      },
+      }
     ]
   }
 ]

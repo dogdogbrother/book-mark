@@ -104,12 +104,6 @@ export default [
         des: 'node连接mysql的好帮手',
         url: 'https://www.sequelize.cn/other-topics/upgrade-to-v6',
         icon: 'sequelize.png'
-      },
-      {
-        name: '微信开发社区',
-        des: '小程序/支付/公众号等文档',
-        url: 'https://developers.weixin.qq.com/community/homepage',
-        icon: 'weixindev.png'
       }
     ]
   },
@@ -308,7 +302,25 @@ export default [
         des: '在git里用emoji表情进行表达',
         url: 'https://gitmoji.dev/',
         icon: 'gitmoji.png'
-      }
+      },
+      {
+        name: '微信开发社区',
+        des: '小程序/支付/公众号等文档',
+        url: 'https://developers.weixin.qq.com/community/homepage',
+        icon: 'weixindev.png'
+      },
+      {
+        name: '微信公众平台',
+        des: '小程序/公众号等运营平台',
+        url: 'https://mp.weixin.qq.com/',
+        icon: 'weixindev.png'
+      },
+      {
+        name: '百度翻译',
+        des: '谷歌翻译不运营了...',
+        url: 'https://fanyi.baidu.com/',
+        icon: 'baidufanyi.png'
+      },
     ]
   },
   {

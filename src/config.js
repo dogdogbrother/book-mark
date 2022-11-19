@@ -186,7 +186,7 @@ export default [
       {
         name: '慕课',
         des: '花冤枉钱,买视频课',
-        url: 'https://github.com/',
+        url: 'https://www.imooc.com/',
         icon: 'mock.png'
       },
       {
@@ -320,6 +320,18 @@ export default [
         des: '谷歌翻译不运营了...',
         url: 'https://fanyi.baidu.com/',
         icon: 'baidufanyi.png'
+      },
+      {
+        name: '文件格式转换',
+        des: '在线文件转换器，支持 200+ 种格式、支持自定义设置、图片可在线预览',
+        url: 'https://cloudconvert.com/',
+        icon: 'cloudconvert.png'
+      },
+      {
+        name: '流程图',
+        des: '手绘风格流程图',
+        url: 'https://excalidraw.com/',
+        icon: 'excalidraw.png'
       },
     ]
   },

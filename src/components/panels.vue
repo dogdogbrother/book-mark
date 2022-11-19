@@ -12,7 +12,7 @@
         <li v-for="label in menu.label" :key="label.name" @click="toUrl(label)">
           <img :src="`/img/${label.icon}`" alt="icon">
           <h4>{{label.name}}</h4>
-          <p>{{label.des}}</p>
+          <p :title="label.des.length > 18 ? label.des : ''">{{label.des}}</p>
         </li>
       </ul>
     </div>
@@ -120,6 +120,9 @@ ul {
       line-height: 22px;
       height: 22px;
       color: #777;
+      text-overflow:ellipsis;
+      overflow: hidden;
+      white-space:nowrap;
     }
   }
 }

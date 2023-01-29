@@ -31,7 +31,7 @@ const keep = getKeep()
 const keepArr = Object.entries(keep)
 keepArr.sort(([, a], [, b]) => b - a)
 myAttention.value.label = keepArr.map(([name]) => flatConfig.find(item => item.name === name)).filter(item => item)
-myAttention.value.label.splice(8)
+myAttention.value.label.splice(10)
 if (myAttention.value.label.length) {
   config.value.unshift(myAttention.value)
 }

@@ -1,12 +1,12 @@
 export default [
   {
-    id: 2,
+    id: 1,
     menu: '文档官网',
     label: [
       {
         name: 'MDN',
         des: '权威大而全的前端开发手册',
-        url: 'https://nodejs.org/zh-cn/docs/',
+        url: 'https://developer.mozilla.org/zh-CN/',
         icon: 'mdn.png'
       },
       {
@@ -38,36 +38,6 @@ export default [
         des: 'react V18发布了',
         url: 'https://react.docschina.org/',
         icon: 'react.png'
-      },
-      {
-        name: 'Element-ui',
-        des: 'vue2的好搭档',
-        url: 'https://element.eleme.cn/#/zh-CN',
-        icon: 'element.png'
-      },
-      {
-        name: 'Vant',
-        des: 'vue2/vue3都在这里',
-        url: 'https://vant-contrib.gitee.io/vant/v4/#/zh-CN',
-        icon: 'vant.png'
-      },
-      {
-        name: 'ant design',
-        des: 'react的pc组件搭档',
-        url: 'https://ant.design/index-cn',
-        icon: 'antd.png'
-      },
-      {
-        name: 'Ant Design of Vue',
-        des: 'vue版本的antd',
-        url: 'https://antdv.com/docs/vue/introduce-cn/',
-        icon: 'antd.png'
-      },
-      {
-        name: 'material-ui of react',
-        des: '谷歌material风格的react ui',
-        url: 'https://mui.com/',
-        icon: 'material.png'
       },
       {
         name: 'webpack 中文文档',
@@ -104,7 +74,61 @@ export default [
         des: 'node连接mysql的好帮手',
         url: 'https://www.sequelize.cn/other-topics/upgrade-to-v6',
         icon: 'sequelize.png'
+      },
+      {
+        name: 'nextjs',
+        des: 'react的ssr方案框架',
+        url: 'https://www.nextjs.cn/',
+        icon: 'nextjs.png'
       }
+    ]
+  },
+  {
+    id: 2,
+    menu: 'UI框架',
+    label: [
+      {
+        name: 'Element-ui',
+        des: 'vue2的好搭档',
+        url: 'https://element.eleme.cn/#/zh-CN',
+        icon: 'element.png'
+      },
+      {
+        name: 'Vant',
+        des: 'vue2/vue3都在这里',
+        url: 'https://vant-contrib.gitee.io/vant/v4/#/zh-CN',
+        icon: 'vant.png'
+      },
+      {
+        name: 'ant design',
+        des: 'react的pc组件搭档',
+        url: 'https://ant.design/index-cn',
+        icon: 'antd.png'
+      },
+      {
+        name: 'Ant Design of Vue',
+        des: 'vue版本的antd',
+        url: 'https://antdv.com/docs/vue/introduce-cn/',
+        icon: 'antd.png'
+      },
+      {
+        name: 'material-ui of react',
+        des: '谷歌material风格的react ui',
+        url: 'https://mui.com/',
+        icon: 'material.png'
+      },
+      {
+        name: 'geist',
+        des: 'react组件库 Vercel的设计风格',
+        url: 'https://geist-ui.dev/zh-cn',
+        icon: 'geist.png'
+      },
+      {
+        name: 'naiveui',
+        des: '新时代的vue3的UI组件库',
+        url: 'https://www.naiveui.com/zh-CN/os-theme',
+        icon: 'naiveui.png'
+      },
     ]
   },
   {
@@ -152,13 +176,7 @@ export default [
         des: '超全超方便的icon平台',
         url: 'https://icones.js.org',
         icon: 'icones.png'
-      },
-      {
-        name: 'naiveui',
-        des: '新时代的vue3的UI组件库',
-        url: 'https://www.naiveui.com/zh-CN/os-theme',
-        icon: 'naiveui.png'
-      },
+      }
     ]
   },
   {
@@ -332,6 +350,12 @@ export default [
         des: '手绘风格流程图',
         url: 'https://excalidraw.com/',
         icon: 'excalidraw.png'
+      },
+      {
+        name: '贝塞尔曲线',
+        des: 'css 贝塞尔曲线在线生成器',
+        url: 'https://cubic-bezier.com/',
+        icon: 'bezier.png'
       },
     ]
   },

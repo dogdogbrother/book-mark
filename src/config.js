@@ -1,6 +1,6 @@
 export default [
   {
-    id: 1,
+    id: 2,
     menu: '文档官网',
     label: [
       {
@@ -84,7 +84,7 @@ export default [
     ]
   },
   {
-    id: 2,
+    id: 3,
     menu: 'UI框架',
     label: [
       {
@@ -132,7 +132,7 @@ export default [
     ]
   },
   {
-    id: 3,
+    id: 4,
     menu: '设计资源',
     label: [
       {
@@ -180,7 +180,7 @@ export default [
     ]
   },
   {
-    id: 4,
+    id: 5,
     menu: '开发社区',
     label: [
       {
@@ -240,7 +240,7 @@ export default [
     ]
   },
   {
-    id: 5,
+    id: 6,
     menu: '运维相关',
     label: [
       {
@@ -270,7 +270,7 @@ export default [
     ]
   },
   {
-    id: 6,
+    id: 7,
     menu: '学习资源',
     label: [
       {
@@ -282,7 +282,7 @@ export default [
     ]
   },
   {
-    id: 7,
+    id: 8,
     menu: '一些工具',
     label: [
       {
@@ -360,7 +360,7 @@ export default [
     ]
   },
   {
-    id: 8,
+    id: 9,
     menu: '跨平台',
     label: [
       {
@@ -378,7 +378,7 @@ export default [
     ]
   },
   {
-    id: 8,
+    id: 10,
     menu: '日常光顾',
     label: [
       {

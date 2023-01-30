@@ -80,6 +80,18 @@ export default [
         des: 'react的ssr方案框架',
         url: 'https://www.nextjs.cn/',
         icon: 'nextjs.png'
+      },
+      {
+        name: 'tauri',
+        des: '新时代的桌面端框架',
+        url: 'https://tauri.app/zh-cn/',
+        icon: 'tauri.png'
+      },
+      {
+        name: 'rust',
+        des: '新时代的编程语言',
+        url: 'https://www.rust-lang.org/zh-CN/',
+        icon: 'rust.png'
       }
     ]
   },

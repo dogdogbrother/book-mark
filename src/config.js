@@ -92,7 +92,19 @@ export default [
         des: '新时代的编程语言',
         url: 'https://www.rust-lang.org/zh-CN/',
         icon: 'rust.png'
-      }
+      },
+      {
+        name: 'mobxjs',
+        des: 'v6+中文 react的状态管理方案',
+        url: 'https://www.mobxjs.com/',
+        icon: 'mobx.png'
+      },
+      {
+        name: 'swr',
+        des: 'react请求状态管理方案',
+        url: 'https://swr.vercel.app/zh-CN',
+        icon: 'swr.png'
+      },
     ]
   },
   {

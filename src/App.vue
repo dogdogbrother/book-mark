@@ -6,6 +6,7 @@
       <Panels ref="panels" :config="config" @change="changeActive" @toKeep="toKeep"></Panels>
     </main>
     <NoData v-else />
+    <AddDialog />
   </div>
 </template>
 <script setup>
@@ -14,6 +15,7 @@ import Menu from './components/menu.vue'
 import Panels from './components/panels.vue'
 import Header from './components/header.vue'
 import NoData from './components/noData.vue'
+import AddDialog from './components/addDialog.vue'
 import _config from './config'
 import { getKeep, setKeep } from './utils/getLocal'
 const flatConfig = []

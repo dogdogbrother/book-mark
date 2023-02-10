@@ -200,7 +200,19 @@ export default [
         des: '超全超方便的icon平台',
         url: 'https://icones.js.org',
         icon: 'icones.png'
-      }
+      },
+      {
+        name: 'IconPark',
+        des: '字节出品的icon和插画资源库',
+        url: 'http://iconpark.oceanengine.com/home',
+        icon: 'iconpark.png'
+      },
+      {
+        name: '自定义插画',
+        des: '灵活创作你想要的自定义任务插画',
+        url: ' https://www.openpeeps.com/',
+        icon: 'openpeeps.png'
+      },
     ]
   },
   {
@@ -302,6 +314,12 @@ export default [
         des: '学习react源码最佳实践',
         url: 'https://pomb.us/build-your-own-react/',
         icon: 'react.png'
+      },
+      {
+        name: '用单词找电影',
+        des: '提供单词或短剧,就能找出相关的电影片段',
+        url: 'https://getyarn.io/',
+        icon: 'getyarn.png'
       }
     ]
   },

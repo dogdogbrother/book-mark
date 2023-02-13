@@ -118,6 +118,12 @@ export default [
         icon: 'element.png'
       },
       {
+        name: 'Element-plus',
+        des: 'vue3的UI组件库',
+        url: 'https://element-plus.org/zh-CN/',
+        icon: 'element-plus.png'
+      },
+      {
         name: 'Vant',
         des: 'vue2/vue3都在这里',
         url: 'https://vant-contrib.gitee.io/vant/v4/#/zh-CN',

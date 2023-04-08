@@ -30,7 +30,7 @@ export default [
       {
         name: 'Vue.js 3.0',
         des: 'hook -- 永远的神',
-        url: 'https://www.javascriptc.com/vue3js/',
+        url: 'https://cn.vuejs.org/',
         icon: 'vuejs.png'
       },
       {
@@ -104,6 +104,12 @@ export default [
         des: 'react请求状态管理方案',
         url: 'https://swr.vercel.app/zh-CN',
         icon: 'swr.png'
+      },
+      {
+        name: 'Emotion',
+        des: 'react的css-in-js方案',
+        url: 'https://emotion.sh/docs/introduction',
+        icon: 'Emotion.png'
       },
     ]
   },

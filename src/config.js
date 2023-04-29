@@ -111,6 +111,12 @@ export default [
         url: 'https://emotion.sh/docs/introduction',
         icon: 'Emotion.png'
       },
+      {
+        name: 'vueuse',
+        des: 'vue3下常用和实用的hook函数',
+        url: 'https://www.vueusejs.com/',
+        icon: 'vueuse.svg'
+      },
     ]
   },
   {
@@ -332,6 +338,12 @@ export default [
         des: '提供单词或短剧,就能找出相关的电影片段',
         url: 'https://getyarn.io/',
         icon: 'getyarn.png'
+      },
+      {
+        name: '音范丝',
+        des: '无字幕高清电影美剧',
+        url: 'https://www.yinfans.me/#',
+        icon: 'yinfans.ico'
       }
     ]
   },

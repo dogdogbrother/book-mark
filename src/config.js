@@ -189,6 +189,12 @@ export default [
         url: 'https://www.naiveui.com/zh-CN/os-theme',
         icon: 'naiveui.png'
       },
+      {
+        name: 'react-hook-form',
+        des: '非常灵活好用的react的表单工具,还能集成在别的组件库里',
+        url: 'https://react-hook-form.com/',
+        icon: 'react-hook-form.png'
+      },
     ]
   },
   {

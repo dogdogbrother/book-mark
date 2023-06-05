@@ -117,6 +117,12 @@ export default [
         url: 'https://www.vueusejs.com/',
         icon: 'vueuse.svg'
       },
+      {
+        name: 'react-query',
+        des: '还支持 vue/solid/svelte 等框架了',
+        url: 'https://tanstack.com/query/latest',
+        icon: 'react-query.png'
+      },
     ]
   },
   {

@@ -66,7 +66,7 @@ function toUrl(info) {
     background-color: #fff;
     border-radius: 10px;
     max-height: 80vh;
-    width: 400px;
+    width: 470px;
     box-shadow: rgb(0 0 0 / 20%) 0px 0px 0px 0px, rgb(0 0 0 / 15%) 0px 2px 14px 0px;
     display: flex;
     flex-direction: column;
@@ -103,7 +103,7 @@ function toUrl(info) {
     span {
       font-size: 16px;
       font-weight: bold;
-      width: 110px;
+      width: 145px;
       flex-shrink: 0;
     }
     p {

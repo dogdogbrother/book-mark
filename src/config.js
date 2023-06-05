@@ -82,6 +82,24 @@ export default [
         icon: 'nextjs.png'
       },
       {
+        name: 'react-router v6',
+        des: '最新的v6版本',
+        url: 'https://reactrouter.com/en/main',
+        icon: 'reactrouter.png'
+      },
+      {
+        name: 'tailwindcss',
+        des: '目前使用最多的原子化css方案',
+        url: 'https://tailwindcss.com/',
+        icon: 'tailwindcss.png'
+      },
+      {
+        name: 'unocss',
+        des: 'windcss的超版本,原子化css的最新章',
+        url: 'https://unocss.dev/',
+        icon: 'unocss.png'
+      },
+      {
         name: 'tauri',
         des: '新时代的桌面端框架',
         url: 'https://tauri.app/zh-cn/',
@@ -176,6 +194,12 @@ export default [
         des: '新时代的vue3的UI组件库',
         url: 'https://www.naiveui.com/zh-CN/os-theme',
         icon: 'naiveui.png'
+      },
+      {
+        name: 'react-hook-form',
+        des: '非常灵活好用的react的表单工具,还能集成在别的组件库里',
+        url: 'https://react-hook-form.com/',
+        icon: 'react-hook-form.png'
       },
     ]
   },

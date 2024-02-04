@@ -141,6 +141,12 @@ export default [
         url: "https://tanstack.com/query/latest",
         icon: "react-query.png",
       },
+      {
+        name: "animejs",
+        des: "强大的动画插件,githu上star数animejs48K ",
+        url: "https://tanstack.com/query/latest",
+        icon: "animejs.png",
+      },
     ],
   },
   {
@@ -258,8 +264,14 @@ export default [
       {
         name: "自定义插画",
         des: "灵活创作你想要的自定义任务插画",
-        url: " https://www.openpeeps.com/",
+        url: "https://www.openpeeps.com/",
         icon: "openpeeps.png",
+      },
+      {
+        name: "虎课网",
+        des: "付费学习设计/建模/影视/3D的网站",
+        url: "https://huke88.com/",
+        icon: "huke.jpg",
       },
     ],
   },
@@ -458,6 +470,12 @@ export default [
         des: "css 贝塞尔曲线在线生成器",
         url: "https://cubic-bezier.com/",
         icon: "bezier.png",
+      },
+      {
+        name: "easing 动画曲线",
+        des: "现成的css贝塞尔曲线模式",
+        url: "https://easings.net/",
+        icon: "easing.png",
       },
     ],
   },

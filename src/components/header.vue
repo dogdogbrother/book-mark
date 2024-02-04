@@ -1,7 +1,7 @@
 <template>
   <div class="headr">
     <input type="text" title="会根据内容优先筛选 名称 > 描述 > url" @input="onInput" placeholder="名称/描述/URL">
-    <a href="https://github.com/dogdogbrother/book-mark" target="_blank" title="去github提个PR吧">加个书签</a>
+    <a href="https://github.com/dogdogbrother/book-mark" target="_blank" title="去github提个PR吧">我也来加个书签</a>
   </div>
 </template>
 <script setup>

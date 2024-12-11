@@ -162,7 +162,7 @@ export default [
       {
         name: "Element-plus",
         des: "vue3的UI组件库",
-        url: "https://element-plus.org/zh-CN/",
+        url: "https://element-plus-docs.bklab.cn/zh-CN/",
         icon: "element-plus.png",
       },
       {
@@ -268,10 +268,10 @@ export default [
         icon: "openpeeps.png",
       },
       {
-        name: "虎课网",
-        des: "付费学习设计/建模/影视/3D的网站",
-        url: "https://huke88.com/",
-        icon: "huke.jpg",
+        name: "vantajs",
+        des: "超级炫酷的3D效果背景",
+        url: "https://www.vantajs.com/",
+        icon: "vantajs.jpg",
       },
     ],
   },
@@ -393,6 +393,12 @@ export default [
         url: "https://www.duolingo.cn/",
         icon: "duolingo.ico",
       },
+      {
+        name: "虎课网",
+        des: "付费学习设计/建模/影视/3D的网站",
+        url: "https://huke88.com/",
+        icon: "huke.jpg",
+      },
     ],
   },
   {
@@ -476,6 +482,12 @@ export default [
         des: "现成的css贝塞尔曲线模式",
         url: "https://easings.net/",
         icon: "easing.png",
+      },
+      {
+        name: "mymonocloud",
+        des: "翻墙梯子,一个月15",
+        url: "mymonocloud",
+        icon: "mymonocloud.png",
       },
     ],
   },

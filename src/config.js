@@ -489,6 +489,12 @@ export default [
         url: "mymonocloud",
         icon: "mymonocloud.png",
       },
+      {
+        name: "豆包AI",
+        des: "抖音的ChatGPT",
+        url: "https://www.doubao.com/chat/",
+        icon: "doubao.png",
+      },
     ],
   },
   {

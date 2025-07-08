@@ -168,7 +168,7 @@ export default [
       {
         name: "Vant",
         des: "vue2/vue3都在这里",
-        url: "https://vant-contrib.gitee.io/vant/v4/#/zh-CN",
+        url: "https://vant-ui.github.io/vant/#/zh-CN",
         icon: "vant.png",
       },
       {

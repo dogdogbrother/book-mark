@@ -430,12 +430,6 @@ export default [
         icon: "jiumo.png",
       },
       {
-        name: "亿牛网",
-        des: "炒股好帮手 看股票参数",
-        url: "https://eniu.com/",
-        icon: "eniu.png",
-      },
-      {
         name: "gitmoji",
         des: "在git里用emoji表情进行表达",
         url: "https://gitmoji.dev/",
@@ -545,4 +539,16 @@ export default [
       },
     ],
   },
+  {
+    id: 11,
+    menu: "炒股好帮手",
+    label: [
+      {
+        name: "亿牛网",
+        des: "炒股好帮手 看股票参数",
+        url: "https://eniu.com/",
+        icon: "eniu.png",
+      },
+    ]
+  }
 ];

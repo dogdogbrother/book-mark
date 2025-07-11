@@ -545,9 +545,27 @@ export default [
     label: [
       {
         name: "亿牛网",
-        des: "炒股好帮手 看股票参数",
+        des: "我主要是用来看股息率和跌幅的",
         url: "https://eniu.com/",
         icon: "eniu.png",
+      },
+      {
+        name: "同花顺问财",
+        des: "用来选股可以的,还能做策略回溯",
+        url: "https://www.iwencai.com/unifiedwap/home/index",
+        icon: "iwencai.png",
+      },
+      {
+        name: "大盘云图",
+        des: "如题...",
+        url: "https://www.shidaotec.com/dapanyuntu.html",
+        icon: "dapanyuntu.png",
+      },
+      {
+        name: "百度股市通",
+        des: "股市新秀",
+        url: "https://gushitong.baidu.com/",
+        icon: "gushitong.png",
       },
     ]
   }

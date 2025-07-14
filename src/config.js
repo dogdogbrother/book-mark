@@ -495,6 +495,12 @@ export default [
         url: "https://picsum.photos/",
         icon: "picsum.png",
       },
+      {
+        name: "carbon",
+        des: "可以生成代码截图,主要是用于美化,可惜需要翻墙",
+        url: "https://carbon.now.sh/",
+        icon: "carbon.png",
+      },
     ],
   },
   {

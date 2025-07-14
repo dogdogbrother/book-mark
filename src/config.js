@@ -489,6 +489,12 @@ export default [
         url: "https://www.doubao.com/chat/",
         icon: "doubao.png",
       },
+      {
+        name: "picsum-photos",
+        des: "可以生成灵活图片的网站,测试开发的时候用挺好",
+        url: "https://picsum.photos/",
+        icon: "picsum.png",
+      },
     ],
   },
   {

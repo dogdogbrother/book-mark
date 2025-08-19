@@ -363,6 +363,12 @@ export default [
         url: "https://cloud.tencent.com/",
         icon: "tengxunyun.png",
       },
+      {
+        name: "cloudflare",
+        des: "小额免费的云 数据库 服务器的提供商",
+        url: "https://www.cloudflare-cn.com/",
+        icon: "cloudflare.ico",
+      },
     ],
   },
   {
@@ -500,6 +506,12 @@ export default [
         des: "可以生成代码截图,主要是用于美化,可惜需要翻墙",
         url: "https://carbon.now.sh/",
         icon: "carbon.png",
+      },
+      {
+        name: "AI工具导航",
+        des: "集合了很多AI生产力工具",
+        url: "https://jrzdbzazrs.space.minimax.io/",
+        icon: "🤖",
       },
     ],
   },

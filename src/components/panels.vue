@@ -10,7 +10,8 @@
       <h2>{{menu.menu}}</h2>
       <ul>
         <li v-for="label in menu.label" :key="label.name" @click="toUrl(label)">
-          <img :src="`/img/${label.icon}`" alt="icon">
+          <img :src="`/img/${label.icon}`" alt="icon" v-if="label.icon.includes('.')" />
+          <div v-else>{{ label.icon }}</div>
           <h4>{{label.name}}</h4>
           <p :title="label.des.length > 18 ? label.des : ''">{{label.des}}</p>
         </li>
@@ -108,6 +109,9 @@ ul {
     img {
       width: 40px;
       height: 40px;
+    }
+    div {
+      font-size: 32px;
     }
     h4 {
       margin-bottom: 10px;

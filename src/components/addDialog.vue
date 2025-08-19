@@ -5,7 +5,8 @@
       <ul>
         <li v-for="mark in diffMarks" @click="toUrl(mark)">
           <div>
-            <img :src='`/img/${mark.icon}`' :alt="mark.name " />
+            <img :src='`/img/${mark.icon}`' :alt="mark.name" v-if="mark.icon.includes('.')" />
+            <div v-else style="font-size: 18px;">{{ mark.icon }}</div>
             <span>{{ mark.name }}</span>
           </div>
           <p>{{ mark.des }}</p>

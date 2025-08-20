@@ -143,9 +143,15 @@ export default [
       },
       {
         name: "animejs",
-        des: "强大的动画插件,githu上star数animejs48K ",
+        des: "强大的动画插件,githu上star数animejs48K",
         url: "https://tanstack.com/query/latest",
         icon: "animejs.png",
+      },
+      {
+        name: "nestJS",
+        des: "写后端服务的,js版的spring boot",
+        url: "https://docs.nestjs.cn/",
+        icon: "nestjs.jpg",
       },
     ],
   },

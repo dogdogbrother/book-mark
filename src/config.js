@@ -143,9 +143,15 @@ export default [
       },
       {
         name: "animejs",
-        des: "强大的动画插件,githu上star数animejs48K ",
+        des: "强大的动画插件,githu上star数animejs48K",
         url: "https://tanstack.com/query/latest",
         icon: "animejs.png",
+      },
+      {
+        name: "nestJS",
+        des: "写后端服务的,js版的spring boot",
+        url: "https://docs.nestjs.cn/",
+        icon: "nestjs.jpg",
       },
     ],
   },
@@ -369,6 +375,12 @@ export default [
         url: "https://cloud.tencent.com/",
         icon: "tengxunyun.png",
       },
+      {
+        name: "cloudflare",
+        des: "小额免费的云 数据库 服务器的提供商",
+        url: "https://www.cloudflare-cn.com/",
+        icon: "cloudflare.ico",
+      },
     ],
   },
   {
@@ -501,6 +513,18 @@ export default [
         url: "https://picsum.photos/",
         icon: "picsum.png",
       },
+      {
+        name: "carbon",
+        des: "可以生成代码截图,主要是用于美化,可惜需要翻墙",
+        url: "https://carbon.now.sh/",
+        icon: "carbon.png",
+      },
+      {
+        name: "AI工具导航",
+        des: "集合了很多AI生产力工具",
+        url: "https://jrzdbzazrs.space.minimax.io/",
+        icon: "🤖",
+      },
     ],
   },
   {
@@ -557,9 +581,27 @@ export default [
     label: [
       {
         name: "亿牛网",
-        des: "炒股好帮手 看股票参数",
+        des: "我主要是用来看股息率和跌幅的",
         url: "https://eniu.com/",
         icon: "eniu.png",
+      },
+      {
+        name: "同花顺问财",
+        des: "用来选股可以的,还能做策略回溯",
+        url: "https://www.iwencai.com/unifiedwap/home/index",
+        icon: "iwencai.png",
+      },
+      {
+        name: "大盘云图",
+        des: "如题...",
+        url: "https://www.shidaotec.com/dapanyuntu.html",
+        icon: "dapanyuntu.png",
+      },
+      {
+        name: "百度股市通",
+        des: "股市新秀",
+        url: "https://gushitong.baidu.com/",
+        icon: "gushitong.png",
       },
     ]
   }

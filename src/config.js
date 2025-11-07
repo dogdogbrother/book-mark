@@ -273,6 +273,12 @@ export default [
         url: "https://www.vantajs.com/",
         icon: "vantajs.jpg",
       },
+      {
+        name: "stitch",
+        des: "google的AI设计工具,可以通过草图生成UI成品",
+        url: "https://stitch.withgoogle.com/",
+        icon: "stitch.png",
+      },
     ],
   },
   {
